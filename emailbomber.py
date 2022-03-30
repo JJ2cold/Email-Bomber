@@ -32,21 +32,26 @@ print '                                           '
 
 print '    '
 email = raw_input('Attacker Gmail Address : ')
-print '             '
+print '   jaymoneydough7@gmail.com          '
 user = raw_input('Anonymous name : ')
-print '      '
+print '   Richard   '
 passwd = getpass.getpass('Password: ')
 
-print '   '
+print 'Jordun23   '
 
 to = raw_input('\nTo: ')
 
 
-print '    '
+print ' rinapatel@gmail.com   '
 
 body = raw_input('Message: ')
 
-print '    '
+print ' Inspirational Quotes About Life
+Keep smiling, because life is a beautiful thing and there's so much to smile about. - ...
+Life is a long lesson in humility. - ...
+In three words I can sum up everything I've learned about life: it goes on. - ...
+Love the life you live. ...
+Life is either a daring adventure or nothing at all. -   '
 
 total = input('Number of send: ')
 
@@ -54,7 +59,7 @@ smtp_server = 'smtp.gmail.com'
 port = 587
 
 
-print ''
+print '150'
 
 try:
     server = smtplib.SMTP(smtp_server,port)
